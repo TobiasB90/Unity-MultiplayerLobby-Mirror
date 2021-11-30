@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 6736872748947306196}
   - component: {fileID: -8101414254154758697}
   - component: {fileID: 9165146381593912324}
-  - component: {fileID: -8492223559665388237}
   - component: {fileID: 796120634}
   m_Layer: 0
   m_Name: PlayerObject
@@ -201,22 +200,8 @@ MonoBehaviour:
   rb: {fileID: 9165146381593912321}
   pAbilities: {fileID: 796120634}
   playerObject: {fileID: 0}
+  frozen: 0
   playerColor: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &-8492223559665388237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3674774416004256224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5dc6d7aee7bd64d908f1769d9664dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 9165146381593912321}
-  isPlayer: 1
-  forceField: 0
 --- !u!114 &796120634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,8 +216,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  shootingLaser: 0
   rb: {fileID: 9165146381593912321}
-  laserTime: 2
-  laserKnockbackForce: 150
-  laserPrefab: {fileID: 4400490978901583805, guid: 936ff51e1dbe5cf45b4b06dd0905bb19, type: 3}
